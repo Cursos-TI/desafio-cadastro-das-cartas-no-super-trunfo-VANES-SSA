@@ -23,7 +23,46 @@ int main() {
     float area2;
     float pib2;
     int pontosTuristicos2;
-    // Cadastro das Cartas:
+
+    // Cadastro da primeira Cartas.
+    printf(" \nCadastro da primeira carta:\n");
+    printf("Digite o estado (A-H):");  // Digite o estado escolhendo a letra de (A ate H)
+    scanf("%s", estado1);
+    printf("Digite a cidade (01-04):");  // Digite a cidade escolhendo o numero de 01 ate 04
+    scanf("%s", cidade1);
+    printf("Digite o código da carta:");  // O codigo da cidade é a letra do estado + numero da cidade (EX: A01).
+    scanf(" %s", codigo1);
+    printf("Digite a população: ");
+    scanf(" %d", &populacao1);
+    printf("Digite a área (em km²):");
+    scanf("%f", &area1);
+    printf("Digite o PIB (em bilhões): ");
+    scanf("%f", &pib1);
+    printf("Digite o número de pontos turístico:");
+    scanf("%d", &pontosTuristicos1);
+
+    // Cadastro da segunda Carta.
+    printf("\nCadastro da segunda carta:\n");
+    printf("Digite o estado (A-H): ");   // Digite o estado escolhendo a letra de (A ate H).
+    scanf("%s", estado2);
+    printf("Digite a cidade (01-04):");   //Digite a cidade escolhendo um numero entre 01 e 04
+    scanf("%s", cidade2);
+    printf("Digite o código da carta:"); // o codigo da carta é a soma do estado + cidade Ex: B01
+    scanf("%s", codigo2);
+    printf("Digite a população:");
+    scanf("%d", &populacao2);
+    printf("Digite a área (em km²):");
+    scanf("%f", &area2);
+    printf("Digite o PIB (em bilhões):");
+    scanf("%f", &pib2);
+    printf("Digite os pontos Turísticos:");
+    scanf("%d", pontosTuristicos2);
+
+
+
+
+
+
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     
