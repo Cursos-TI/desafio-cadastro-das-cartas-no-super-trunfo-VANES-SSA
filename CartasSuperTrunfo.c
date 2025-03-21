@@ -56,7 +56,11 @@ int main() {
     printf("Digite o PIB (em bilhões):");
     scanf("%f", &pib2);
     printf("Digite os pontos Turísticos:");
-    scanf("%d", pontosTuristicos2);
+    scanf("%d", &pontosTuristicos2);
+
+    //Exibição da primeira carta
+    
+
 
 
 
